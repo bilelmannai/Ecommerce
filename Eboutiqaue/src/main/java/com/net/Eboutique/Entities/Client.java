@@ -3,6 +3,8 @@ package com.net.Eboutique.Entities;
 import java.io.Serializable;
 import java.util.Collection;
 
+import javax.persistence.Entity;
+@Entity
 public class Client implements Serializable {
 	
 	private Long idClient ;
